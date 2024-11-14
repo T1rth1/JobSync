@@ -8,7 +8,7 @@ import { useNavigate } from 'react-router-dom';
 import ResumeUploadSection from "./ResumeUploadSection";
 // import jobsync from "../assets/"
 
-export default function Component() {
+export default function Mainpage() {
   return (
     <div className="flex flex-col min-h-[100dvh]">
       
