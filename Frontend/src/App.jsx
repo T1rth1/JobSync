@@ -2,15 +2,15 @@ import { useState } from 'react'
 import './App.css'
 import {Toaster} from "sonner"
 import { Routes, Route, Navigate, Outlet, useLocation } from "react-router-dom"
-import Sidebar from "./components/Sidebar"
+import Sidebar from "./components/Sidebar.jsx"
 import Navbar from "./components/Navbar.jsx"
-import MainPage from './components/MainPage'
-import Dashboard from './components/Dashboard'
-import JobTracker from './components/JobTracker'
-import AtsScore_2 from './components/AtsScore_2'
+import MainPage from './components/MainPage.jsx'
+import Dashboard from './components/Dashboard.jsx'
+import JobTracker from './components/JobTracker.jsx'
+import AtsScore_2 from './components/AtsScore_2.jsx'
 import { useUser } from '@clerk/clerk-react';
-import Jobs from './components/Jobs'
-// import CardDetail from './components/CardDetail'
+import Jobs from './components/Jobs.jsx'
+// import CardDetail from './components/CardDetail.jsx'
 
 function Layout() {
   const { isLoaded, isSignedIn } = useUser();
