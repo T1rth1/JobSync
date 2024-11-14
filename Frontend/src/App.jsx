@@ -4,7 +4,7 @@ import {Toaster} from "sonner"
 import { Routes, Route, Navigate, Outlet, useLocation } from "react-router-dom"
 import Sidebar from "./components/Sidebar.jsx"
 import Navbar from "./components/Navbar.jsx"
-import MainPage from './components/MainPage.jsx'
+import MainPage from './components/Mainpage.jsx'
 import Dashboard from './components/Dashboard.jsx'
 import JobTracker from './components/JobTracker.jsx'
 import AtsScore_2 from './components/AtsScore_2.jsx'
