@@ -14,6 +14,7 @@ import {
   useUser,
 } from "@clerk/clerk-react";
 // import {image} from "../../src/assets/jobsync.png"
+import jobSyncLogo from '../assets/jobsync.png';
 
 function Navbar() {
   const { isLoaded, isSignedIn, user } = useUser();
@@ -54,7 +55,9 @@ function Navbar() {
   return (
     <header className="sticky top-0 z-30 flex h-16 items-center justify-between bg-gradient-to-r from-[#323277] to-[#857ffb] px-4 sm:px-6 md:h-20 md:px-8">
       <a href="/" className="flex items-center gap-2 mb-4" prefetch={false}>
-        <img src="./src/assets/jobsync.png" className="h-10" alt="JobSync Logo"/>
+{/*         <img src="./src/assets/jobsync.png" className="h-10" alt="JobSync Logo"/> */}
+        <img src={jobSyncLogo} className="h-10" alt="JobSync Logo"/>
+
         <div className="flex flex-col justify-center">
           <span className="text-2xl font-sans font-bold  text-white leading-tight mt-3">JobSync</span>
         </div>
